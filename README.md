@@ -1,6 +1,6 @@
 # B3 my blog version 3
 
-welcome!
+welcome! Hi~ o(_￣▽￣_)ブ
 
 ---
 
