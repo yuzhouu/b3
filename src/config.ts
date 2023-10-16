@@ -1,7 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://yuzhouu.github.io/b3/",
+  website:
+    import.meta.env.MODE === "development"
+      ? "http://localhost:4321/"
+      : "https://yuzhouu.github.io/",
   author: "Zhou Yu",
   desc: "my personal blog, about javascript typescript.",
   title: "Ordinary Days",
